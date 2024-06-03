@@ -1,0 +1,341 @@
+[
+  {
+    "key": 1,
+    "type": "sys",
+    "name": "mem_B",
+    "start_addr": "0x0",
+    "end_addr": "0x7ffffff",
+    "size": "131072.0KB",
+    "description": "",
+    "children": [
+      {
+        "key": 2,
+        "type": "sys",
+        "name": "test",
+        "start_addr": "0x0",
+        "end_addr": "0xa7fff",
+        "size": "672.0KB",
+        "description": "",
+        "children": [
+          {
+            "key": 3,
+            "type": "sys",
+            "name": "B1",
+            "start_addr": "0x1",
+            "end_addr": "0x4",
+            "size": "4B",
+            "description": "",
+            "children": [
+              {
+                "key": 4,
+                "type": "reg",
+                "name": "L1",
+                "start_addr": "0x9",
+                "end_addr": "0x2b",
+                "size": "4B",
+                "description": "",
+                "fields": [
+                  {
+                    "key": 6,
+                    "name": "TXE",
+                    "size": "1 bit",
+                    "Position": "[0:0]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  },
+                  {
+                    "key": 8,
+                    "name": "TXD",
+                    "size": "1 bit",
+                    "Position": "[4:4]",
+                    "External": "False",
+                    "Software Access": "ReadOnly",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 1,
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": 9,
+            "type": "sys",
+            "name": "B2",
+            "start_addr": "0x11170",
+            "end_addr": "0x11173",
+            "size": "4B",
+            "description": "",
+            "children": [
+              {
+                "key": 10,
+                "type": "reg",
+                "name": "L1",
+                "start_addr": "0x11178",
+                "end_addr": "0x1119a",
+                "size": "4B",
+                "description": "",
+                "fields": [
+                  {
+                    "key": 12,
+                    "name": "TXE",
+                    "size": "1 bit",
+                    "Position": "[0:0]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  },
+                  {
+                    "key": 14,
+                    "name": "TXD",
+                    "size": "1 bit",
+                    "Position": "[4:4]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": 15,
+            "type": "sys",
+            "name": "B3",
+            "start_addr": "0x80000",
+            "end_addr": "0x8ffff",
+            "size": "64.0KB",
+            "description": "",
+            "children": [
+              {
+                "key": 16,
+                "type": "sys",
+                "name": "FSP",
+                "start_addr": "0x80000",
+                "end_addr": "0x8ffff",
+                "size": "64.0KB",
+                "description": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "key": 17,
+            "type": "sys",
+            "name": "B4",
+            "start_addr": "0xa0500",
+            "end_addr": "0xa0503",
+            "size": "4B",
+            "description": "",
+            "children": [
+              {
+                "key": 18,
+                "type": "reg",
+                "name": "L1",
+                "start_addr": "0xa0508",
+                "end_addr": "0xa052a",
+                "size": "4B",
+                "description": "",
+                "fields": [
+                  {
+                    "key": 20,
+                    "name": "TXE",
+                    "size": "1 bit",
+                    "Position": "[0:0]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  },
+                  {
+                    "key": 22,
+                    "name": "TXD",
+                    "size": "1 bit",
+                    "Position": "[4:4]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": 23,
+            "type": "sys",
+            "name": "B5",
+            "start_addr": "0xa1000",
+            "end_addr": "0xa1003",
+            "size": "4B",
+            "description": "",
+            "children": [
+              {
+                "key": 24,
+                "type": "reg",
+                "name": "TXD",
+                "start_addr": "0xa1008",
+                "end_addr": "0xa102a",
+                "size": "4B",
+                "description": "",
+                "fields": [
+                  {
+                    "key": 26,
+                    "name": "TXE",
+                    "size": "1 bit",
+                    "Position": "[0:0]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  },
+                  {
+                    "key": 28,
+                    "name": "TXD",
+                    "size": "1 bit",
+                    "Position": "[4:4]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  }
+                ]
+              },
+              {
+                "key": 29,
+                "type": "reg",
+                "name": "TXD_2",
+                "start_addr": "0xa1008",
+                "end_addr": "0xa102a",
+                "size": "4B",
+                "description": "",
+                "fields": [
+                  {
+                    "key": 31,
+                    "name": "TXE",
+                    "size": "1 bit",
+                    "Position": "[0:0]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  },
+                  {
+                    "key": 33,
+                    "name": "TXD",
+                    "size": "1 bit",
+                    "Position": "[4:4]",
+                    "External": "False",
+                    "Software Access": "WriteOnly",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  }
+                ]
+              },
+              {
+                "key": 34,
+                "type": "reg",
+                "name": "TXD_3",
+                "start_addr": "0xa1008",
+                "end_addr": "0xa102a",
+                "size": "4B",
+                "description": "",
+                "fields": [
+                  {
+                    "key": 36,
+                    "name": "TXE",
+                    "size": "1 bit",
+                    "Position": "[0:0]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  },
+                  {
+                    "key": 38,
+                    "name": "TXD",
+                    "size": "1 bit",
+                    "Position": "[4:4]",
+                    "External": "False",
+                    "Software Access": "ReadOnly",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": 39,
+            "type": "sys",
+            "name": "B7",
+            "start_addr": "0xa2000",
+            "end_addr": "0xa2003",
+            "size": "4B",
+            "description": "",
+            "children": [
+              {
+                "key": 40,
+                "type": "reg",
+                "name": "TXD",
+                "start_addr": "0xa2008",
+                "end_addr": "0xa202a",
+                "size": "4B",
+                "description": "",
+                "fields": [
+                  {
+                    "key": 42,
+                    "name": "TXD",
+                    "size": "1 bit",
+                    "Position": "[0:0]",
+                    "External": "False",
+                    "Software Access": "ReadWrite",
+                    "Hardware Access": "ReadWrite",
+                    "defaut_value": 0,
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "key": 43,
+            "type": "sys",
+            "name": "memory_block",
+            "start_addr": "0xa4000",
+            "end_addr": "0xa7fff",
+            "size": "16.0KB",
+            "description": "",
+            "children": [
+              {
+                "key": 44,
+                "type": "sys",
+                "name": "dwc_ddrphy_top_DCCM",
+                "start_addr": "0xa4000",
+                "end_addr": "0xa7fff",
+                "size": "16.0KB",
+                "description": "",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
