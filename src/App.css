@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.reg-row {
+  background-color: #FFC0CB ;  /* Light blue for type1 */
+}
+
+.sys-row {
+  background-color: #f0f8ff;  /* Light pink for type2 */
+}
